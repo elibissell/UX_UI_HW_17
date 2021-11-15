@@ -1,8 +1,27 @@
 .inline-block ul {
-    display: inline-block;
+    display: flex;
     vertical-align: top;
     list-style-type: none;
+    margin: 0;
+}
 
+
+.inline-block ul li {
+    padding-left: 80px;
+}
+.mainContainer {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2em;
+}
+
+.inline-block {
+    display: flex;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
 }
 
 a:link {
@@ -14,35 +33,60 @@ header {
     display: block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #555555;
-    margin-left: 2%;
+}
+
+.navigation {
+    display: block;
 }
 
 .logo {
     border-radius: none;
     height: 50%;
-    width: 50%;
+    max-width: 250px;
+}
+
+.heroImg h1 {
+    margin-top: 100px;
 }
 
 .headshot {
     border-radius: 15px;
-    width: 30%;
-    height: 30%;
-    margin-right: 2%;
-    margin-left: 8%;
-    float: left;
+    width: 100%;
+    height: auto;
 }
 
-.para {
+.headshotContainer {
+    max-width: 40%;
+}
+
+.content {
     font-size: 24px;
+    display: flex;
     color:#555555;
-    margin-left: 10%;
-    margin-right: 20%;
+    margin-top: 50px;
+}
+
+.moreInformation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.caseStudies {
+    color: #555555;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50%;
+}
+
+
+
+.content p {
+    margin-left: 2em;
 }
 
 nav ul li {
     display: inline-block;
 }
-
 
 .button {
     background-color:#618C78;
@@ -54,36 +98,568 @@ nav ul li {
     width: 160px;
     height: 40px;
     border-radius: 15px;
-    margin-top: 10%;
-    margin-left: 20%;
+    margin-left: 15em;
+    margin-top: 4em;
 }
 
 .edu {
-    margin-top: 500px;
-    margin-left: 10px;
-}
-.skills{
-    margin-top: 500px;
-    margin-left: 1000px;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-columns: 50% 50%;
+    color: #555555;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50%;
 }
 
-.bubble {
-    margin-top: 20px;
+
+.headerText {
+    font-size: 34px;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #555555;
+    display: block;
+}
+
+.headerText2 {
+    font-size: 34px;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    display: block;
+    padding: 1em;
+}
+
+.subheaderText {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #555555;
+    display: block;
+}
+
+.titleText {
+    font-size: 28px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #555555;
+    display: block;
+}
+
+.titleText2 {
+    font-size: 28px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #555555;
+    display: block;
+    margin-left: 20px;
+}
+
+.bodyText {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #555555;
+    display: block;
+    font-weight: normal;
+}
+
+.bodyText2 {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: normal;
+}
+
+.bodyTextAlt {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #555555;
+    display: flex;
+    justify-content: right;
+    padding-right: 5px;
+    text-decoration: underline;
+}
+
+.bodyTextAlt2 {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #618C78;
+    display: flex;
+    justify-content: right;
+    padding-right: 5px;
+}
+
+.boldTitle {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #274032;
+    font-weight: bold;
+}
+
+.secondaryTitle {
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #555555;
+}
+
+.linkText {
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #555555;
+}
+
+.descriptionText {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #555555;
+    display: block;
+    margin-top: 2em;
+}
+
+.listText {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #555555;
+    margin-left: 2em;
+    padding-left: 15px;
+}
+
+.nextText {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #618C78;
+    display: flex;
+    justify-content: right;
+}
+
+.previousText {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #618C78;
+    display: flex;
+    justify-content: left;
+}
+
+.headerLinkText {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #618C78;
+}
+
+.headerLinkText2 {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #555555;
+}
+
+.processHeader {
+    font-size: 28px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #555555;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.processSubheader {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #555555;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+.skills{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "skillButtons";
+    width: 50%;
+}
+.skillButtons {
+    grid-area: skillButtons;
+    margin-left: 2em;
+}
+
+.buttonList {
+    display: flex;
+    flex-wrap: wrap;
+    grid-area: buttonList;
+}
+
+.bubbleUX {
+    margin: 20px;
     background-color: #C4C4C4;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-size: 18px;
-    color: #FFFFFF;
+    color: #555555;
+    border: none;
+    width: 220px;
+    height: 40px;
+    border-radius: 15px;
+}
+.bubblePro {
+    margin: 20px;
+    margin-left: 60px;
+    background-color: #C4C4C4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #555555;
+    border: none;
+    width: 170px;
+    height: 40px;
+    border-radius: 15px;
+    align-items: left;
+}
+.bubbleSto {
+    margin: 20px;
+    background-color: #C4C4C4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #555555;
+    border: none;
+    width: 170px;
+    height: 40px;
+    border-radius: 15px;
+    align-items: right;
+}
+.bubbleSoc {
+    margin: 20px;
+    background-color: #C4C4C4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #555555;
+    border: none;
+    width: 260px;
+    height: 40px;
+    border-radius: 15px;
+}
+.bubbleGra {
+    margin: 20px;
+    background-color: #C4C4C4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #555555;
+    border: none;
+    width: 220px;
+    height: 40px;
+    border-radius: 15px;
+}
+.bubbleWir {
+    margin: 20px;
+    margin-left: 50px;
+    background-color: #C4C4C4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #555555;
+    border: none;
+    width: 180px;
+    height: 40px;
+    border-radius: 15px;
+}
+.bubblePho {
+    margin: 20px;
+    background-color: #C4C4C4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #555555;
+    border: none;
+    width: 180px;
+    height: 40px;
+    border-radius: 15px;
+}
+.bubbleProd {
+    margin: 20px;
+    margin-left: 50px;
+    background-color: #C4C4C4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #555555;
+    border: none;
+    width: 220px;
+    height: 40px;
+    border-radius: 15px;
+}
+.bubbleACS {
+    margin: 20px;
+    background-color: #C4C4C4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #555555;
+    border: none;
+    width: 260px;
+    height: 40px;
+    border-radius: 15px;
+}
+.bubbleFig {
+    margin: 20px;
+    margin-left: 80px;
+    background-color: #C4C4C4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #555555;
+    border: none;
+    width: 110px;
+    height: 40px;
+    border-radius: 15px;
+}
+.bubbleGS {
+    margin: 20px;
+    background-color: #C4C4C4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #555555;
+    border: none;
+    width: 180px;
+    height: 40px;
+    border-radius: 15px;
+}
+.bubbleMO {
+    margin: 20px;
+    margin-left: 70px;
+    background-color: #C4C4C4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #555555;
     border: none;
     width: 200px;
     height: 40px;
     border-radius: 15px;
 }
 
-.large {
-    width: 400px;
+.footerContainer {
+    margin-top: 150px;
+
+}
+
+.resumeLink {
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+.contactContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 2em;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.hobbies {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "skillButtons";
+    width: 50%;
+}
+
+.hobbyImgs {
+    max-width: 100%;
+    margin-top: 2em;
+}
+
+.hobbyPhotos {
+    border-radius: 20px;
+    width: 35%;
+    height: auto;
+    padding: 10px;
+}
+
+.caseImgs {
+    max-width: 100%;
+    margin-top: 3em;
+}
+.casePhotos {
+    width: 60%;
+    height: auto;
+    padding: 20px;
+}
+
+
+.studyIntro {
+    font-size: 24px;
+    display: flex;
+    color:#555555;
+}
+
+.particaseIntro h1 {
+    margin-top: 100px;
+}
+
+.caseheaderImg {
+    width: 75%;
+    height: auto;
+    margin-top: 2em;
+    border-radius: 15px;
+}
+
+.partiApp {
+    width: 110%;
+    height: auto;
+    margin-top: 2em;
+    margin-right: 2em;
+}
+
+.caseDescription {
+    margin-top: 2em;
+    background-color: #F2EFE9;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.partiPhotos {
+    margin-top: 2em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.partiPhotos2 {
+    margin-top: 2em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.partiPhotos3 {
+    margin-top: 2em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.dotPhotos {
+    margin-top: 2em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.nextStudy {
+    margin-top: 4em;
+}
+
+
+.dotIntroImg {
+    display: flex;
+    justify-content: center;
+}
+
+.dotheaderImg {
+    width: 100%;
+    height: auto;
+    margin-top: 2em;
+    border-radius: 20px;
+}
+
+.ASFintro {
+    width: 80%;
+    height: auto;
+    margin-top: 2em;
+    border-radius: 15px;
+}
+
+.ASFlogo {
+    height: auto;
+}
+
+.asfIntro {
+    display: flex;
+}
+
+.workHeader {
+    display: block;
+}
+
+.workMenu {
+    display: flex;
+    justify-content: right;
+    margin-top: 2em;
+}
+
+.galleryPhotos {
+    float: left;
+    width: 350px;
+}
+
+.hobbyGallery{
+    margin-top: 4em;
+    margin-bottom: 4em;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "galleryPhotos";
+}
+
+.artGallery{
+    margin-top: 4em;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "galleryPhotos";
+}
+
+a.contactButton {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    color: #f2efe9;
+    font-size: 18px;
+    background-color: #618C78;
+    width: 160px;
     height: 40px;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.contactButton {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    color: #f2efe9;
+    font-size: 18px;
+    background-color: #618C78;
+    width: 160px;
+    height: 40px;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
 }
