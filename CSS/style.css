@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&family=Signika:wght@300;400;500;600;700&display=swap');
+
 .inline-block ul {
     display: flex;
     vertical-align: top;
@@ -10,7 +13,7 @@
     padding-left: 80px;
 }
 .mainContainer {
-    max-width: 1200px;
+    max-width: 1500px;
     margin: auto;
     padding: 2em;
 }
@@ -31,7 +34,6 @@ a:link {
 
 header {
     display: block;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #555555;
 }
 
@@ -74,7 +76,6 @@ header {
 
 .caseStudies {
     color: #555555;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 50%;
 }
 
@@ -90,7 +91,7 @@ nav ul li {
 
 .button {
     background-color:#618C78;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Sarala', sans-serif;
     font-style: normal;
     font-size: 18px;
     color: #f2efe9;
@@ -102,52 +103,74 @@ nav ul li {
     margin-top: 4em;
 }
 
+.button2 {
+    background-color:#f2efe9;
+    font-family: 'Sarala', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #274032;
+    border: none;
+    width: 160px;
+    height: 40px;
+    border-radius: 15px;
+    margin-left: 15em;
+    margin-top: 4em;
+}
+
 .edu {
     color: #555555;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 50%;
 }
 
 
 .headerText {
-    font-size: 34px;
+    font-size: 40px;
     font-weight: normal;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Signika', sans-serif;
     color: #555555;
     display: block;
 }
 
 .headerText2 {
-    font-size: 34px;
+    font-size: 40px;
     font-weight: normal;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Signika', sans-serif;
     color: white;
     display: block;
     padding: 1em;
 }
 
+.headerText3 {
+    font-size: 40px;
+    font-weight: normal;
+    font-family: 'Signika', sans-serif;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
 .subheaderText {
     font-size: 24px;
     font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Signika', sans-serif;
     color: #555555;
     display: block;
 }
 
 .titleText {
-    font-size: 28px;
+    font-size: 30px;
     font-weight: normal;
     text-transform: uppercase;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Sarala', sans-serif;
     color: #555555;
     display: block;
 }
 
 .titleText2 {
-    font-size: 28px;
+    font-size: 30px;
     font-weight: normal;
     text-transform: uppercase;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Sarala', sans-serif;
     color: #555555;
     display: block;
     margin-left: 20px;
@@ -155,7 +178,7 @@ nav ul li {
 
 .bodyText {
     font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Sarala', sans-serif;
     color: #555555;
     display: block;
     font-weight: normal;
@@ -163,14 +186,23 @@ nav ul li {
 
 .bodyText2 {
     font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Sarala', sans-serif;
     color: white;
     font-weight: normal;
 }
 
+.bodyText3 {
+    font-size: 18px;
+    font-family: 'Sarala', sans-serif;
+    color: #555555;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+}
+
 .bodyTextAlt {
     font-size: 14px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Sarala', sans-serif;
     color: #555555;
     display: flex;
     justify-content: right;
@@ -180,7 +212,7 @@ nav ul li {
 
 .bodyTextAlt2 {
     font-size: 14px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Sarala', sans-serif;
     color: #618C78;
     display: flex;
     justify-content: right;
@@ -188,51 +220,53 @@ nav ul li {
 }
 
 .boldTitle {
-    font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-family: 'Signika', sans-serif;
     color: #274032;
     font-weight: bold;
 }
-
-.secondaryTitle {
+.boldTitle2 {
     font-size: 24px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #555555;
+    font-family: 'Signika', sans-serif;
+    color: #274032;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
 }
 
-.linkText {
-    font-size: 24px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.secondaryTitle {
+    font-size: 28px;
+    font-family: 'Signika', sans-serif;
     color: #555555;
 }
 
 .descriptionText {
-    font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-family: 'Sarala', sans-serif;
     color: #555555;
     display: block;
     margin-top: 2em;
 }
 
 .listText {
-    font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-family: 'Sarala', sans-serif;
     color: #555555;
     margin-left: 2em;
     padding-left: 15px;
 }
 
 .nextText {
-    font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-family: 'Sarala', sans-serif;
     color: #618C78;
     display: flex;
     justify-content: right;
 }
 
 .previousText {
-    font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-family: 'Sarala', sans-serif;
     color: #618C78;
     display: flex;
     justify-content: left;
@@ -240,35 +274,36 @@ nav ul li {
 
 .headerLinkText {
     font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Sarala', sans-serif;
     color: #618C78;
 }
 
 .headerLinkText2 {
     font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Sarala', sans-serif;
     color: #555555;
 }
 
 .processHeader {
-    font-size: 28px;
+    font-size: 30px;
     font-weight: normal;
     text-transform: uppercase;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Sarala', sans-serif;
     color: #555555;
     display: flex;
-    justify-content: center;
-    margin-top: 2em;
+    justify-content: left;
+    padding-left: 2em;
+    padding-top: 10px;
 }
 
 .processSubheader {
-    font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-family: 'Signika', sans-serif;
     color: #555555;
     font-weight: bold;
     display: flex;
-    justify-content: center;
-    margin-top: 4em;
+    justify-content: left;
+    margin-top: 2em;
 }
 
 .skills{
@@ -293,7 +328,7 @@ nav ul li {
 .bubbleUX {
     margin: 20px;
     background-color: #C4C4C4;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Sarala', sans-serif;
     font-style: normal;
     font-size: 18px;
     color: #555555;
@@ -306,7 +341,7 @@ nav ul li {
     margin: 20px;
     margin-left: 60px;
     background-color: #C4C4C4;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Sarala', sans-serif;
     font-style: normal;
     font-size: 18px;
     color: #555555;
@@ -319,7 +354,7 @@ nav ul li {
 .bubbleSto {
     margin: 20px;
     background-color: #C4C4C4;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Sarala', sans-serif;
     font-style: normal;
     font-size: 18px;
     color: #555555;
@@ -332,7 +367,7 @@ nav ul li {
 .bubbleSoc {
     margin: 20px;
     background-color: #C4C4C4;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Sarala', sans-serif;
     font-style: normal;
     font-size: 18px;
     color: #555555;
@@ -344,7 +379,7 @@ nav ul li {
 .bubbleGra {
     margin: 20px;
     background-color: #C4C4C4;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Sarala', sans-serif;
     font-style: normal;
     font-size: 18px;
     color: #555555;
@@ -357,7 +392,7 @@ nav ul li {
     margin: 20px;
     margin-left: 50px;
     background-color: #C4C4C4;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Sarala', sans-serif;
     font-style: normal;
     font-size: 18px;
     color: #555555;
@@ -369,7 +404,7 @@ nav ul li {
 .bubblePho {
     margin: 20px;
     background-color: #C4C4C4;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Sarala', sans-serif;
     font-style: normal;
     font-size: 18px;
     color: #555555;
@@ -382,7 +417,7 @@ nav ul li {
     margin: 20px;
     margin-left: 50px;
     background-color: #C4C4C4;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Sarala', sans-serif;
     font-style: normal;
     font-size: 18px;
     color: #555555;
@@ -394,7 +429,7 @@ nav ul li {
 .bubbleACS {
     margin: 20px;
     background-color: #C4C4C4;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Sarala', sans-serif;
     font-style: normal;
     font-size: 18px;
     color: #555555;
@@ -407,7 +442,7 @@ nav ul li {
     margin: 20px;
     margin-left: 80px;
     background-color: #C4C4C4;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Sarala', sans-serif;
     font-style: normal;
     font-size: 18px;
     color: #555555;
@@ -419,7 +454,7 @@ nav ul li {
 .bubbleGS {
     margin: 20px;
     background-color: #C4C4C4;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Sarala', sans-serif;
     font-style: normal;
     font-size: 18px;
     color: #555555;
@@ -432,7 +467,7 @@ nav ul li {
     margin: 20px;
     margin-left: 70px;
     background-color: #C4C4C4;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Sarala', sans-serif;
     font-style: normal;
     font-size: 18px;
     color: #555555;
@@ -444,18 +479,17 @@ nav ul li {
 
 .footerContainer {
     margin-top: 150px;
-
+    background-color: #618C78;
+    padding: 2em;
 }
 
 .resumeLink {
-    display: flex;
-    justify-content: center;
+    display: block;
     margin-top: 4em;
 }
 
 .contactContainer {
-    display: flex;
-    justify-content: center;
+    display: block;
     text-align: center;
     padding: 2em;
 }
@@ -537,6 +571,7 @@ nav ul li {
     margin-left: auto;
     margin-right: auto;
     width: 60%;
+    height: auto;
 }
 
 .partiPhotos2 {
@@ -563,11 +598,6 @@ nav ul li {
     width: 80%;
 }
 
-.nextStudy {
-    margin-top: 4em;
-}
-
-
 .dotIntroImg {
     display: flex;
     justify-content: center;
@@ -575,9 +605,10 @@ nav ul li {
 
 .dotheaderImg {
     width: 100%;
-    height: auto;
+    height: 600px;
     margin-top: 2em;
-    border-radius: 20px;
+    object-fit: cover;
+    object-position: 0 25%;
 }
 
 .ASFintro {
@@ -631,18 +662,19 @@ nav ul li {
 
 a.contactButton {
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Sarala', sans-serif;
     font-style: normal;
-    color: #f2efe9;
+    color: #274032;
     font-size: 18px;
-    background-color: #618C78;
+    background-color: #f2efe9;
     width: 160px;
     height: 40px;
     border-radius: 15px;
-    display: inline-block;
+    display: block;
     text-align: center;
     line-height: 40px;
     margin: 0 auto;
+    margin-top: 1em;
     padding: 0;
 }
 
@@ -650,9 +682,9 @@ a.contactButton {
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
-    color: #f2efe9;
+    color: #274032;
     font-size: 18px;
-    background-color: #618C78;
+    background-color: #f2efe9;
     width: 160px;
     height: 40px;
     border-radius: 15px;
@@ -660,6 +692,222 @@ a.contactButton {
     text-align: center;
     line-height: 40px;
     margin: 0 auto;
+    margin-top: 1em;
     padding: 0;
     border: none;
+}
+
+.headerContainer {
+    display: block;
+    height: 500px;
+}
+
+.imageContainer {
+    background-image: url("../Images/DOT/projects.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 30%;
+    height: 500px;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.imageContainer2 {
+    background-image: url("../Images/ASF/sb-atlanta-takingroot-july2016-blacklives-800x599.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 30%;
+    height: 500px;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.imageContainer3 {
+    background-image: url("../Images/parti\ header.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 60%;
+    height: 500px;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.overlayBox {
+    background-color: rgb(242, 239, 233, 0.7);
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.overlayBox2 {
+    background-color: rgb(242, 239, 233, 0.8);
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.designProcess {
+    margin-top: 4em;
+}
+
+.sectionBlocks {
+    background-color: rgb(242, 239, 233);
+    height: 120px;
+    display: flex;
+    justify-content: left;
+    padding-left: 6em;
+    margin-top: 4em;
+}
+
+.sectionBlocks2 {
+    background-color: rgb(242, 239, 233);
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 6em;
+    padding-right: 12em;
+    margin-top: 4em;
+}
+
+.headerBlock {
+    display: flex;
+}
+
+.icon {
+    height: 75%;
+    display: flex;
+    padding-top: 15px;
+}
+
+.researchSection {
+    display: flex;
+    justify-content: space-around;
+}
+
+.prototypeSection {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.researchPhotos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.researchImages {
+    width: 35%;
+    height: fit-content;
+    margin-top: 2em;
+}
+
+.definitionImages {
+    width: 25%;
+    height: fit-content;
+    margin-top: 2em;
+}
+
+.prototypeImages {
+    width: 40%;
+    height: fit-content;
+    margin-top: 2em;
+}
+
+.finalProto {
+    background-color: rgb(242, 239, 233);
+    justify-content: center;
+}
+
+.finalDOTLogo {
+    display: block;
+    justify-content: center;
+}
+
+.finalImagesDOT {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2em;
+    margin-right: 4em;
+    padding: 1em;
+}
+
+.finalImagesASF {
+    display: flex;
+    justify-content: center;
+    margin-left: 2em;
+    margin-right: 4em;
+    padding: 1em;
+}
+
+.finalProto {
+    margin-top: 4em;
+}
+
+.nextStudySection {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(242, 239, 233);
+}
+
+.nextText {
+    margin: 4em;
+}
+
+.previousText {
+    margin: 4em;
+}
+
+.finalDOT {
+    height: auto;
+    max-width: 55%;
+    object-fit: contain;
+}
+
+.finalDOT2 {
+    height: auto;
+    max-width: 35%;
+    object-fit: contain;
+}
+
+.finalASF {
+    height: auto;
+    max-width: 70%;
+    object-fit: contain;
+    justify-content: center;
+    display: flex;
+}
+
+.logoASF {
+    width: auto;
+    max-height: 80%;
+    padding: 10px;
+}
+
+.logoASF2 {
+    width: 30%;
+    padding: 2em;
+}
+
+.logoParti {
+    width: auto;
 }
