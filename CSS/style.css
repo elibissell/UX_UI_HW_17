@@ -80,11 +80,6 @@ header {
 }
 
 
-
-.content p {
-    margin-left: 2em;
-}
-
 nav ul li {
     display: inline-block;
 }
@@ -149,12 +144,32 @@ nav ul li {
     text-align: center;
 }
 
+.headerText4 {
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Signika', sans-serif;
+    color: #555555;
+    display: block;
+    text-align: left;
+    padding-top: 1.5em;
+    padding-left: 2.12em;
+}
+
 .subheaderText {
     font-size: 24px;
     font-weight: bold;
     font-family: 'Signika', sans-serif;
     color: #555555;
     display: block;
+}
+
+.subheaderText2 {
+    font-size: 32px;
+    font-weight: normal;
+    font-family: 'Signika', sans-serif;
+    color: #555555;
+    display: block;
+    padding-left: 5.4em;
 }
 
 .titleText {
@@ -198,6 +213,15 @@ nav ul li {
     font-weight: normal;
     display: flex;
     justify-content: center;
+}
+
+.bodyText4 {
+    font-size: 18px;
+    font-family: 'Sarala', sans-serif;
+    color: #555555;
+    display: block;
+    font-weight: normal;
+    margin-left: 2em;
 }
 
 .bodyTextAlt {
@@ -497,7 +521,7 @@ nav ul li {
 .gallery {
     display: flex;
     justify-content: space-between;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 .hobbies {
@@ -526,7 +550,7 @@ nav ul li {
     margin-top: 3em;
 }
 .casePhotos {
-    width: 60%;
+    max-width: 60%;
     height: auto;
     padding: 20px;
 }
@@ -697,6 +721,25 @@ a.contactButton {
     border: none;
 }
 
+.resumeButton {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    color: #f2efe9;
+    font-size: 18px;
+    background-color: #618C78;
+    width: 160px;
+    height: 40px;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 auto;
+    margin-top: 1em;
+    padding: 0;
+    border: none;
+}
+
 .headerContainer {
     display: block;
     height: 500px;
@@ -750,6 +793,22 @@ a.contactButton {
     justify-content: center;
 }
 
+.imageContainer4 {
+    background-image: url("../Images/webdesign-banner-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 60%;
+    height: 500px;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    display: block;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: left;
+}
+
 .overlayBox {
     background-color: rgb(242, 239, 233, 0.7);
     width: 80%;
@@ -760,6 +819,13 @@ a.contactButton {
 
 .overlayBox2 {
     background-color: rgb(242, 239, 233, 0.8);
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.overlayBox3 {
     width: 80%;
     height: 100px;
     display: flex;
